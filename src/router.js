@@ -10,6 +10,10 @@ import Tables from './views/Tables.vue';
 import BlogPosts from './views/BlogPosts.vue';
 import TJCSZB from './views/child/TJCSZB.vue';
 import CSZBCX from './views/child/CSZBCX.vue';
+import CSZBGLDCSYL from './views/child/CSZBGLDCSYL.vue'
+import CSZBGLCSYL from './views/child/CSZBGLCSYL.vue'
+import CSZBXGWC from './views/child/CSZBXGWC.vue'
+import CSYLCX from './views/child/CSYLCX.vue'
 
 Vue.use(Router);
 
@@ -71,6 +75,22 @@ export default new Router({
       path: '/CSZBCX',
       name: 'CSZBCX',
       component: CSZBCX,
+    },{
+      path: '/CSZBGLDCSYL',
+      name: 'CSZBGLDCSYL',
+      component: CSZBGLDCSYL,
+    },{
+      path: '/CSZBGLCSYL',
+      name: 'CSZBGLCSYL',
+      component: CSZBGLCSYL,
+    },{
+      path: '/CSZBXGWC',
+      name: 'CSZBXGWC',
+      component: CSZBXGWC,
+    },{
+      path: '/CSYLCX',
+      name: 'CSYLCX',
+      component: CSYLCX,
     },
   ],
 });

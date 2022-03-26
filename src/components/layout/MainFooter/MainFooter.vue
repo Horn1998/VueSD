@@ -15,21 +15,24 @@
 
 <script>
 const defaultMenuItems = [{
-  title: 'Home',
+  title: '添加测试指标',
   to: '/TJCSZB',
 }, {
-  title: 'Services',
+  title: '测试指标查询',
   to: '/CSZBCX',
 }, {
-  title: 'About',
-  to: '#',
-}, {
-  title: 'Products',
-  to: '#',
-}, {
-  title: 'Blog',
-  to: '#',
-}];
+  title: '测试指标关联的测试用例',
+  to: '/CSZBGLDCSYL',
+},  {
+  title: '测试指标关联测试用例',
+  to: '/CSZBGLCSYL',
+},{
+  title: '测试指标修改完成',
+  to: '/CSZBXGWC',
+},{
+  title: '测试用例查询',
+  to: '/CSYLCX',
+},];
 
 export default {
   name: 'main-footer',

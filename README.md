@@ -1,9 +1,13 @@
+<p>
+git add .  #将改动添加到本地 </br>
+git commit -m 'lyx 2022/2/21' <br>
+git push git@github.com:Horn1998/VueSD.git
+</p>
 <p align="center">
 <a href="https://designrevision.com/downloads/shards-dashboard-lite-vue/">
 <img src="assets/preview.png" width="250" />
 </a>
 </p>
-<1111>
 
 <h1 align="center" style="border-bottom: none !important; margin-bottom: 5px !important;"><a href="https://designrevision.com/downloads/shards-dashboard-lite-vue/">Shards Dashboard Vue</a></h1>
 <p align="center">
