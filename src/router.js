@@ -13,7 +13,24 @@ import CSZBCX from './views/child/CSZBCX.vue';
 import CSZBGLDCSYL from './views/child/CSZBGLDCSYL.vue'
 import CSZBGLCSYL from './views/child/CSZBGLCSYL.vue'
 import CSZBXGWC from './views/child/CSZBXGWC.vue'
+import QDSCCSZB from './views/child/QDSCCSZB.vue'
+import CSZBSCWC from './views/child/CSZBSCWC.vue'
 import CSYLCX from './views/child/CSYLCX.vue'
+import CSBZCK from './views/child/CSBZCK.vue'
+import CSYLXGWC from './views/child/CSYLXGWC.vue'
+import CSBZXGWC from './views/child/CSBZXGWC.vue'
+import QDSCCSYL from './views/child/QDSCCSYL.vue'
+import CSBZSCWC from './views/child/CSBZSCWC.vue'
+import CSWDCX from './views/child/CSWDCX.vue'
+import QDXGWDXX from './views/child/QDXGWDXX.vue'
+import CSWDXGWC from './views/child/CSWDXGWC.vue'
+import QDSCWD from './views/child/QDSCWD.vue'
+import CSWDSCWC from './views/child/CSWDSCWC.vue'
+import YHCX from './views/child/YHCX.vue'
+import QDXGYHXX from './views/child/QDXGYHXX.vue'
+import YHXXXGWC from './views/child/YHXXXGWC.vue'
+import QDSCYH from './views/child/QDSCYH.vue'
+import YHSCWC from './views/child/YHSCWC.vue'
 
 Vue.use(Router);
 
@@ -88,9 +105,77 @@ export default new Router({
       name: 'CSZBXGWC',
       component: CSZBXGWC,
     },{
+      path: '/QDSCCSZB',
+      name: 'QDSCCSZB',
+      component: QDSCCSZB,
+    },{
+      path: '/CSZBSCWC',
+      name: 'CSZBSCWC',
+      component: CSZBSCWC,
+    },{
       path: '/CSYLCX',
       name: 'CSYLCX',
       component: CSYLCX,
+    },{
+      path: '/CSBZCK',
+      name: 'CSBZCK',
+      component: CSBZCK,
+    },{
+      path: '/CSYLXGWC',
+      name: 'CSYLXGWC',
+      component: CSYLXGWC,
+    },{
+      path: '/CSBZXGWC',
+      name: 'CSBZXGWC',
+      component: CSBZXGWC,
+    },{
+      path: '/QDSCCSYL',
+      name: 'QDSCCSYL',
+      component: QDSCCSYL,
+    },{
+      path: '/CSBZSCWC',
+      name: 'CSBZSCWC',
+      component: CSBZSCWC,
+    },{
+      path: '/CSWDCX',
+      name: 'CSWDCX',
+      component: CSWDCX,
+    },{
+      path: '/QDXGWDXX',
+      name: 'QDXGWDXX',
+      component: QDXGWDXX,
+    },{
+      path: '/CSWDXGWC',
+      name: 'CSWDXGWC',
+      component: CSWDXGWC,
+    },{
+      path: '/QDSCWD',
+      name: 'QDSCWD',
+      component: QDSCWD,
+    },{
+      path: '/CSWDSCWC',
+      name: 'CSWDSCWC',
+      component: CSWDSCWC,
+    },{
+      path: '/YHCX',
+      name: 'YHCX',
+      component: YHCX,
+    },{
+      path: '/QDXGYHXX',
+      name: 'QDXGYHXX',
+      component: QDXGYHXX,
+    },{
+      path: '/YHXXXGWC',
+      name: 'YHXXXGWC',
+      component: YHXXXGWC,
+    },{
+      path: '/QDSCYH',
+      name: 'QDSCYH',
+      component: QDSCYH,
+    },{
+      path: '/YHSCWC',
+      name: 'YHSCWC',
+      component: YHSCWC,
     },
   ],
 });
