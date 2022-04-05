@@ -9,7 +9,6 @@ import ComponentsOverview from './views/ComponentsOverview.vue';
 import Tables from './views/Tables.vue';
 import BlogPosts from './views/BlogPosts.vue';
 import TJCSZB from './views/child/TJCSZB.vue';
-import CSZBCX from './views/child/CSZBCX.vue';
 import CSZBGLDCSYL from './views/child/CSZBGLDCSYL.vue'
 import CSZBGLCSYL from './views/child/CSZBGLCSYL.vue'
 import CSZBXGWC from './views/child/CSZBXGWC.vue'
@@ -31,6 +30,20 @@ import QDXGYHXX from './views/child/QDXGYHXX.vue'
 import YHXXXGWC from './views/child/YHXXXGWC.vue'
 import QDSCYH from './views/child/QDSCYH.vue'
 import YHSCWC from './views/child/YHSCWC.vue'
+import TJCSYL from './views/CSZBGL/TJCSYL.vue';
+import CSZBXQ from './views/CSZBGL/CSZBXQ.vue';
+import CSZBCX from './views/CSZBGL/CSZBCX.vue';
+import XGCSZB from './views/CSZBGL/XGCSZB.vue';
+import CSYLXQ from './views/CSZBGL/CSYLXQ.vue';
+import TJCSBZ from './views/CSZBGL/TJCSBZ.vue';
+import XGCSYL from './views/CSZBGL/XGCSYL.vue';
+import XGCSBZ from './views/CSZBGL/XGCSBZ.vue';
+import CSWDXQ from './views/CSZBGL/CSWDXQ.vue';
+import XZCSWD from './views/CSZBGL/XZCSWD.vue';
+import XGCSWD from './views/CSZBGL/XGCSWD.vue';
+import YHXQ from './views/CSZBGL/YHXQ.vue';
+import XZYH from './views/CSZBGL/XZYH.vue';
+import XGYHXX from './views/CSZBGL/XGYHXX.vue';
 
 Vue.use(Router);
 
@@ -77,22 +90,10 @@ export default new Router({
       name: 'tables',
       component: Tables,
     },
-    {
-      path: '/blog-posts',
-      name: 'blog-posts',
-      component: BlogPosts,
-    }, {
+   {
       path: '*',
       redirect: '/errors',
     }, {
-      path: '/TJCSZB',
-      name: 'TJCSZB',
-      component: TJCSZB,
-    }, {
-      path: '/CSZBCX',
-      name: 'CSZBCX',
-      component: CSZBCX,
-    },{
       path: '/CSZBGLDCSYL',
       name: 'CSZBGLDCSYL',
       component: CSZBGLDCSYL,
@@ -176,6 +177,85 @@ export default new Router({
       path: '/YHSCWC',
       name: 'YHSCWC',
       component: YHSCWC,
+    }, {
+      path: '/blog-posts',
+      name: 'blog-posts',
+      component: BlogPosts,
+    }, {
+      path: '*',
+      redirect: '/errors',
+    }, {
+      path: '/TJCSZB',
+      name: 'TJCSZB',
+      component: TJCSZB,
+    }, {
+      path: '/CSZBCX',
+      name: 'CSZBCX',
+      component: CSZBCX,
+    }, {
+      path: '/TJCSYL',
+      name: 'TJCSYL',
+      component: TJCSYL,
+    },
+    {
+      path: '/CSZBXQ',
+      name: 'CSZBXQ',
+      component: CSZBXQ,
+    },
+    {
+      path: '/XGCSZB',
+      name: 'XGCSZB',
+      component: XGCSZB,
+    },
+    {
+      path: '/CSYLXQ',
+      name: 'CSYLXQ',
+      component: CSYLXQ,
+    },
+    {
+      path: '/TJCSBZ',
+      name: 'TJCSBZ',
+      component: TJCSBZ,
+    },
+    {
+      path: '/XGCSYL',
+      name: 'XGCSYL',
+      component: XGCSYL,
+    },
+    {
+      path: '/XGCSBZ',
+      name: 'XGCSBZ',
+      component: XGCSBZ,
+    },
+    {
+      path: '/CSWDXQ',
+      name: 'CSWDXQ',
+      component: CSWDXQ,
+    },
+    {
+      path: '/XZCSWD',
+      name: 'XZCSWD',
+      component: XZCSWD,
+    },
+    {
+      path: '/XGCSWD',
+      name: 'XGCSWD',
+      component: XGCSWD,
+    },
+    {
+      path: '/YHXQ',
+      name: 'YHXQ',
+      component: YHXQ,
+    },
+    {
+      path: '/XZYH',
+      name: 'XZYH',
+      component: XZYH,
+    },
+    {
+      path: '/XGYHXX',
+      name: 'XGYHXX',
+      component: XGYHXX,
     },
   ],
 });

@@ -83,7 +83,63 @@ const defaultMenuItems = [{
 },{
   title: '用户删除完成',
   to: '/YHSCWC',
-},];
+},{
+  title: '添加测试指标',
+  to: '/TJCSZB',
+}, {
+  title: '测试指标查询',
+  to: '/CSZBCX',
+}, {
+  title: '添加测试用例',
+  to: '/TJCSYL',
+}, {
+  title: '测试指标详情',
+  to: '/CSZBXQ',
+},
+{
+  title: '修改测试指标',
+  to: '/XGCSZB',
+},
+{
+  title: '测试用例详情',
+  to: '/CSYLXQ',
+},
+{
+  title: '添加测试步骤',
+  to: '/TJCSBZ',
+},
+{
+  title: '修改测试用例',
+  to: '/XGCSYL',
+},
+{
+  title: '修改测试步骤',
+  to: '/XGCSBZ',
+},
+{
+  title: '测试文档详情',
+  to: '/CSWDXQ',
+},
+{
+  title: '新增测试文档',
+  to: '/XZCSWD',
+},
+{
+  title: '修改测试文档',
+  to: '/XGCSWD',
+},
+{
+  title: '用户详情',
+  to: '/YHXQ',
+},
+{
+  title: '新增用户',
+  to: '/XZYH',
+},
+{
+  title: '修改用户信息',
+  to: '/XGYHXX',
+}];
 
 export default {
   name: 'main-footer',
